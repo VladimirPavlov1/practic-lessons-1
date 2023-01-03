@@ -12,6 +12,7 @@ export const App = () => {
       <PageTitle text="24th Worlds Coalition Conference"/>
       <EventBoard events= {events}/>
       {painting.map(paint=><Painting 
+      key={paint.title}
       imageUrl={paint.url}
       title={paint.title}
       price={paint.price}

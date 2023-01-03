@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/VladimirPavlov1/practic-lessons-1/static/css/main.86cf9341.css",
-    "main.js": "/VladimirPavlov1/practic-lessons-1/static/js/main.c09efbae.js",
+    "main.js": "/VladimirPavlov1/practic-lessons-1/static/js/main.a6e9986b.js",
     "index.html": "/VladimirPavlov1/practic-lessons-1/index.html",
     "main.86cf9341.css.map": "/VladimirPavlov1/practic-lessons-1/static/css/main.86cf9341.css.map",
-    "main.c09efbae.js.map": "/VladimirPavlov1/practic-lessons-1/static/js/main.c09efbae.js.map"
+    "main.a6e9986b.js.map": "/VladimirPavlov1/practic-lessons-1/static/js/main.a6e9986b.js.map"
   },
   "entrypoints": [
     "static/css/main.86cf9341.css",
-    "static/js/main.c09efbae.js"
+    "static/js/main.a6e9986b.js"
   ]
 }

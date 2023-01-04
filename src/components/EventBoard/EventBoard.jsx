@@ -1,8 +1,25 @@
+import PropTypes from "prop-types"
+import { Event } from "components/Event/Event";
 import css from "./EventBoard.module.css"
 
 export const EventBoard=({events})=>{
     return <div className={css.eventBoard}>
-        {events.map(event=><div key={event.name}>
-            {event.name}
-        </div>)}</div>
+        {events.map(({name,location,speaker,type,time})=><Event key={name}  name={name} location={location} speaker={speaker} type={type} start={time.start} end={time.end}>
+          
+        </Event>)}</div>
 };
+
+
+EventBoard.propTypes={
+    events:PropTypes.arrayOf(
+        PropTypes.exact({
+            name:PropTypes.string,
+            location: PropTypes.string,
+            speaker: PropTypes.string,
+            type: PropTypes.string,
+            time: {
+              start:PropTypes.string,
+              end:PropTypes.string   
+        }})
+    ).isRequired,
+}
